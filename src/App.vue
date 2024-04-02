@@ -16,8 +16,6 @@ const handleStep = async (step) => {
   if (step.getCallbackOfType("RedirectCallback")) forgerock.FRAuth.redirect(step);
 };
 
-const handleError = ;
-
 onMounted(async () => {
   const searchParams = new URLSearchParams(window.location.search);
   if (searchParams.has("code") && searchParams.has("state")) {

@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# Social Login with FR
+  This is a simple bare minimum setup to test Social Login for the service tree configured
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Tested setup
+- node js version 18
+- npm version 9
 
-## Recommended IDE Setup
+## Usage
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+clone project
+```sh
+cd fr-social-login
+
+npm install
+npm run dev
+```
+
+## Pre-req
+1. Microsoft OIDC client configured
+2. AM authentication tree configured with Microsoft Social Login
